@@ -1,0 +1,106 @@
+<div class="banner-home" id="home">
+    <div class="imagem"></div>  
+    <H1 class="big2 header-text">Hey! I&#39m Augusto Arraes</H1>
+    <p class="big2"> A Software Developer based in Gatineau, Canada. </p>
+    
+</div>
+
+
+<div class="banner-home2" >
+<div id="skills" class="reference"> </div>
+<H1>
+<span class="badge bg-secondary" title="Python"> <i class="fa-brands fa-python"></i> Python</span> <span class="badge bg-secondary" title="Flask"> <i class="fa-sharp fa-solid fa-pepper-hot"></i> Flask</span> <span class="badge bg-secondary" title="Ruby"> <i class="fa-regular fa-gem"></i> Ruby</span> 
+<span class="badge bg-secondary" title="Ruby on Rails"><%= image_tag "rubyonrails.svg", style: "height:25px"; %>    
+Ruby on Rails</span> <span class="badge bg-secondary" title="MySQL"> <i class="fa-solid fa-database"></i> MySQL</span>
+<br>
+<span class="badge bg-secondary" title="Git"> <i class="fa-brands fa-git-alt"></i> Git</span> <span class="badge bg-secondary" title="HTML+CSS"> <i class="fa-brands fa-html5"></i> HTML + CSS</span> <span class="badge bg-secondary" title="Java"> <i class="fa-brands fa-java"></i> Java</span> <span class="badge bg-secondary" title="Rest API"> <i class="fa-solid fa-cloud"></i> Rest API</span> <span class="badge bg-secondary" title="Bootstrap"><i class="fa-brands fa-bootstrap"></i> Bootstrap</span>
+</H1>
+</div>
+
+
+<div class="banner-home3 d-flex justify-content-evenly">
+<div id="projects" class="reference"> </div>
+
+    <div class="card card2" style="background-color:rgb(48,39,79)" >
+    <%= link_to image_tag("spaceinvaders2.png",  :class => "card2"), "https://github.com/gutoarraes/Space-Invaders" %>
+        <div class="card-body">
+            <h5 class="card-title">Space Invaders</h5>
+            <p class="card-text"> I built this project to get acknowledged with a straight forward Python library called Pygame. I learned a lot about setting the game loops up, managing FPS rate and even had the opportunity to create some pixel art for the first time in my life. Perhaps not the most useful project, but it was very fun to see it finished. The lessons learned included managing global variables and organizing my code, as well as reading the documentation whenever I hit a dead end.</p>
+        </div>
+    </div>
+    <div class="card card3">
+        <%= link_to image_tag("cookbook2.png",  :class => "card2"), "https://github.com/gutoarraes/Cookbook" %>
+        <div class="card-body">
+            <h5 class="card-title">Cookbook</h5>
+            <p class="card-text"> This project was a web application to store recipes, much like a physical cookbook. The idea of the project came from my personal interest in cooking, coupled with the hard task of finding a slim recipe website. The project was used as the final assignment of the CS50 - Harvard Edx course, and was built with the Python framework called Flask, employed user authentication and data storage with MySQL. </p>
+        </div>
+    </div>
+    <div class="card card3">
+        <%= image_tag "personalwebsite.png" %>
+        <div class="card-body">
+            <h5 class="card-title">Personal website</h5>
+            <p class="card-text"> Built with Ruby on Rails, I researched many developer's portolios so I could build a website that was neatly organized and simplistic in it's design. In navigating an ocean of candidates you must have realized technical skill can be added to a worker's repertoire, but personality is unvaluable. So here goes... what do you call a computer that can sing? <em>A Dell. </em> </p>
+        </div>
+    </div>
+</div>
+
+
+<div class="banner-home4" id="about">
+    <div class="row">
+        <div class="col-6"> 
+            <div>
+                <H1 style="text-align:center"> About me</H1> 
+                <h4>I am a former-finance professional who is very good with talking people and is keen on learning new technologies. 
+                <br><br>
+                People in general will find me very open and easy going. I have had many experiences working directly with customers, which weren't necessarily things I set out for myself, but rather oportunities that came my way.
+                Nevertheless, I have had great success in those areas, having high NPS scores and being first place in yearly sales comparisons within the national team in one of my previous jobs.
+                <br><br> Autonomy is something we all need in a purposeful life - Figuring out problems and unraveling misteries is part of what interests me so much in this new industry of Software Development.
+                <br><br>I hope that by looking through this website I have interested you in having me as your colleague and partner.
+                </div>
+                <br><br>
+            <div>
+                <center>
+                    <h4>Download here a copy of my Resumé: 
+                    <a href="https://drive.google.com/file/d/1nDsHBSa-eGfynbpEINYCYcVnx7Velq5c/view?usp=sharing" download><button type="button" class="btn btn-success"> Download </button></a>
+                </center>
+            </div>
+        </div>
+    
+        <div class="col-6">
+            <div class="row">
+                <div class="row"><h3 style="text-align:center"> Hobbies </h3></div>
+                <div class="row interest-icon">
+                    <div class="col">
+                        <i class="fa-solid fa-book" title="Reading" style="padding-left:20%"></i> 
+                    </div>
+                    <div class="col">
+                        <i class="fa-solid fa-drum" title="Drums" style="padding-right:20%"></i>
+                    </div>
+                </div>
+                <div class="row interest-icon">
+                    <div class="col">
+                        <i class="fa-solid fa-campground" title="Camping" style="padding-left:20%"></i> 
+                    </div>
+                    <div class="col">
+                        <span data-hover="coding"><i class="fa-solid fa-code" title="Coding" style="padding-right:20%"></i>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="row">
+                <div class="row "><h3 style="text-align:center"> Social </h3></div>
+                <div class="row interest-icon">
+                    <div class="col interest2">
+                        <a href="https://www.linkedin.com/in/augusto-arraes/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <div class="col interest-icon-size">
+                        <a href="https://www.facebook.com/gutoarraes"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <div class="col interest-icon-size">
+                        <a href="https://twitter.com/gutoarraes1"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
