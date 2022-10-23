@@ -50,7 +50,7 @@ html, body{
 
 .banner-home3{
     background-color:#457B9D;
-    height:60vh;
+    
     text-align: justify;
     text-justify: inter-word;
     width: 100%;
@@ -96,6 +96,7 @@ html, body{
     text-align: left;
     top:38%;
     left:17%;
+    width: 30%;
 }
 
 .aboutsections{
