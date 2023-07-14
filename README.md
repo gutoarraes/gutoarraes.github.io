@@ -1,4 +1,4 @@
-# https://augustodev.herokuapp.com/
+# https://augustodev.herokuapp.com/ - not up 
 
 This is a repository for the code of my [personal website](https://augustodev2.herokuapp.com/). 
 
