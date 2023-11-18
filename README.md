@@ -28,5 +28,5 @@ Initially I planned on hosting the website on GitHub (as you may notice by this 
 
 ## Improvements
 
-[] I didn't spend a lot of time in making the website responsive, so this could be an idea for the future.
-[] I have to change the hosting platform to Fly.io since Heroku doesn't have free tier plans anymore.
+[ ] I didn't spend a lot of time in making the website responsive, so this could be an idea for the future.
+[ ] I have to change the hosting platform to Fly.io since Heroku doesn't have free tier plans anymore.
