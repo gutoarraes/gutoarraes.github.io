@@ -12,7 +12,7 @@ I chose to create this as a landing page for the sake of simplicity in styling a
 
 Initially I planned on hosting the website on GitHub (as you may notice by this repos name), but I quickly learned we can't host dynamic websites in the platform, so I adapted and found [Codemy's amazing guide](https://www.youtube.com/watch?v=XT23tcKRVvI) for hosting on Heroku.
 
-### technologies
+### Technologies
 
 * Framework: Ruby on Rails, CSS, Bootstrap
 * Launguages: Ruby, HTML
@@ -28,4 +28,5 @@ Initially I planned on hosting the website on GitHub (as you may notice by this 
 
 ## Improvements
 
-I didn't spend a lot of time in making the website responsive, so this could be an idea for the future.
+[] I didn't spend a lot of time in making the website responsive, so this could be an idea for the future.
+[] I have to change the hosting platform to Fly.io since Heroku doesn't have free tier plans anymore.
