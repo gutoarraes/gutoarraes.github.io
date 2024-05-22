@@ -10,10 +10,11 @@
   <%= csp_meta_tag %>
 
   <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= hotwire_livereload_tags if Rails.env.development? %>
 </head>
 <body>
-  <%=render 'home/header'%>
-  <%# render chatbot icon %>
+  <%= render 'home/header' %>
+  <%= render 'home/chatbot'%>
 
   <br>
   <%= yield %>
