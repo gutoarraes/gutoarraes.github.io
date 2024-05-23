@@ -42,6 +42,8 @@ gem 'tzinfo-data'
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+
 gem "figaro"
 # Use Sass to process CSS
 # gem "sassc-rails"
@@ -54,7 +56,6 @@ group :development, :test do
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
   gem "sqlite3", "~> 1.4"
   gem "hotwire-livereload"
-
 end
 
 group:production do

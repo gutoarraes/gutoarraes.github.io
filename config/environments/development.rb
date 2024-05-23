@@ -33,6 +33,12 @@ Rails.application.configure do
     config.cache_store = :null_store
   end
 
+  config.hotwire_livereload.listen_paths << Rails.root.join("app/assets/stylesheets")
+  config.hotwire_livereload.force_reload_paths << Rails.root.join("app/assets/stylesheets")
+  config.hotwire_livereload.listen_paths << Rails.root.join("app/assets/images")
+  config.hotwire_livereload.force_reload_paths << Rails.root.join("app/assets/images")
+  # config.hotwire_livereload.force_reload_paths << Rails.root.join("app/javascript")
+
   # Store uploaded files on the local file system (see config/storage.yml for options).
   config.active_storage.service = :local
 

@@ -125,10 +125,11 @@ li>i {
     align-items: center;
 }
 
-botui {
+.botui {
     position: fixed;
     right: 0;
     bottom: 0;
     min-width: 300px;
     min-height: 400px;
+    z-index: 1;
 }
