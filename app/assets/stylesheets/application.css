@@ -50,7 +50,6 @@ html, body{
 
 .banner-home3{
     background-color:#457B9D;
-    
     text-align: justify;
     text-justify: inter-word;
     width: 100%;
@@ -86,8 +85,8 @@ html, body{
     position: relative;
     text-align: left;
     font-size:xx-large;
-    top: 34%; 
-    left:17%;     
+    top: 34%;
+    left:17%;
 }
 
 .big2{
@@ -110,8 +109,8 @@ html, body{
 .interest-icon{
     padding:4%;
     vertical-align: middle;
-    font-size:xx-large; 
-    text-align: center; 
+    font-size:xx-large;
+    text-align: center;
 }
 
 .interest2{
@@ -126,3 +125,10 @@ li>i {
     align-items: center;
 }
 
+botui {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 300px;
+    min-height: 400px;
+}
