@@ -1,4 +1,4 @@
-# [Augusto Arraes's portfolio](https://augusto2.fly.dev/) - 
+# [Augusto Arraes's portfolio](https://augusto2.fly.dev/)
 
 This is a repository for the code of my personal website.
 
