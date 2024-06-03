@@ -1,23 +1,25 @@
-# https://augustodev.herokuapp.com/ - not up
+# [Augusto Arraes's portfolio](https://augusto2.fly.dev/) - 
 
-This is a repository for the code of my [personal website](https://augustodev2.herokuapp.com/).
+This is a repository for the code of my personal website.
 
 ## Idea
 
 This project was created with 2 intents: Introducing me to a practical application of Ruby and Ruby on Rails, as well as giving me the opportunity of showing my skills to find a full time position as a developer.
 
+I added an iframe with a chatbot I built with Python + Flask (code is on [this repo](https://github.com/gutoarraes/bot)) because I wanted to learn more about UI and how to make use of it in an actual application. I didn't train the AI, even though I believe that would be fairly simple given the documentation. But since my primary interest was to make it work and add it to an application I will add it as a future improvement to actually train it.
+
 ## Build
 
 I chose to create this as a landing page for the sake of simplicity in styling and navigation. I went through a few of iteration of color schemes and ultimately gave up as I don't trust my own taste for these things.
 
-Initially I planned on hosting the website on GitHub (as you may notice by this repos name), but I quickly learned we can't host dynamic websites in the platform, so I adapted and found [Codemy's amazing guide](https://www.youtube.com/watch?v=XT23tcKRVvI) for hosting on Heroku.
+I used Hotwire to make changes to CSS and HTML to take effect on a local server
 
 ### Technologies
 
-* Framework: Ruby on Rails, CSS, Bootstrap
+* Framework: Ruby on Rails,
 * Launguages: Ruby, HTML
-* ~~Database:~~
-* Hosting: ~Heroku~Fly.io
+* Libraries: Bootstrap
+* Hosting: Fly.io
 
 ## What I learned
 
@@ -29,4 +31,5 @@ Initially I planned on hosting the website on GitHub (as you may notice by this 
 ## Improvements
 
 - [ ] I didn't spend a lot of time in making the website responsive, so this could be an idea for the future.
-- [ ] I have to change the hosting platform to Fly.io since Heroku doesn't have free tier plans anymore.
+- [ ] Make the chatbot UI look better
+- [ ] Train the chatbot AI. 
