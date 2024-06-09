@@ -36,4 +36,4 @@ I used Hotwire to make changes to CSS and HTML to take effect on a local server
 
 - [ ] I didn't spend a lot of time in making the website responsive, so this could be an idea for the future.
 - [ ] Make the chatbot UI look better
-- [ ] Train the chatbot AI. 
+- [ ] Train the chatbot AI.
