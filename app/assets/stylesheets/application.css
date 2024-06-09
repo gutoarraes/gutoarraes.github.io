@@ -145,8 +145,8 @@ button:focus{
 
   button.app-button {
    position:fixed;
-   bottom: 20%;
-   right:20%;
+   bottom: 45%;
+   right:5%;
    padding:15px;
    background-color:#4c63c1;
    border:none;border-radius:25px;
