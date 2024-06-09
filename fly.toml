@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for augusto on 2024-04-27T13:28:13-04:00
+# fly.toml app configuration file generated for augusto2 on 2024-06-02T21:21:28-04:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'augusto'
+app = 'augusto2'
 primary_region = 'ewr'
 console_command = '/rails/bin/rails console'
 

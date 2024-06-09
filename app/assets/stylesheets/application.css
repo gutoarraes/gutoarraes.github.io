@@ -125,12 +125,33 @@ li>i {
     align-items: center;
 }
 
-.botui {
+.bot-ui {
     position: fixed;
     right: 0;
     bottom: 0;
-    min-width: 300px;
-    min-height: 400px;
+    min-width: 400px;
+    min-height: 600px;
     z-index: 1;
     background: white;
+
+    /* border: 0;
+    transform: translate(-50%, -50%);
+    box-shadow:0px 0px 15px gray; */
 }
+
+button:focus{
+    outline:none !important;
+  }
+
+  button.app-button {
+   position:fixed;
+   bottom: 20%;
+   right:20%;
+   padding:15px;
+   background-color:#4c63c1;
+   border:none;border-radius:25px;
+   font-weight:500;font-size:14px;
+   color:#fff;
+   box-shadow:0px 0px 10px gray;
+   z-index: 2;
+  }
